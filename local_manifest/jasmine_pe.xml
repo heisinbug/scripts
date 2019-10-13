@@ -28,6 +28,9 @@
         <project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="sdm660" revision="lineage-17.0" />
 
  <!-- Doze -->
-  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" revision="lineage-17.0" />
+        <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" revision="lineage-17.0" />
+
+<!--Sepolicy -->
+        <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="lineageos" revision="lineage-17.0-legacy-um" />
 
 </manifest>
