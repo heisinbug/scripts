@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+   <remote  name="lineageos"
+           fetch="https://github.com/LineageOS/"/>
+
+   <remote  name="sdm660"
+           fetch="https://github.com/xiaomi-sdm660-devs"/>
+
+  <remote  name="darkbeast69"
+           fetch="https://github.com/darkbeast69"/>
+
+  <!-- kernel -->
+	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="sdm660" revision="lineage-17.0"/>
+
+  <!-- tulip-->
+	<project name="android_device_xiaomi_twolip" path="device/xiaomi/twolip" remote="sdm660" revision="lineage-17.0"/>
+
+  <!-- Common-->
+	<project name="android_device_xiaomi_tulip-common" path="device/xiaomi/sdm660-common" remote="darkbeast69" revision="lineage-17.0"/>
+
+  <!-- vendor -->
+	<project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="sdm660" revision="lineage-17.0" />
+
+ <!-- Doze -->
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" revision="lineage-17.0" />
+
+</manifest>
