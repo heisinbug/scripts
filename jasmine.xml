@@ -29,3 +29,5 @@
 
  <!-- Doze -->
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" revision="lineage-17.0" />
+
+</manifest>
