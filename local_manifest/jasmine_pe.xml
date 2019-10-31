@@ -15,15 +15,18 @@
 	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="sdm660" revision="kernel.lnx.4.4.r38-rel"/>
 
   <!-- jasmine-->
-	<project name="android_device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="darkbeast69" revision="pe-10"/>
+	<project name="android_device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="sdm660" revision="pe-10"/>
 
   <!-- Common-->
-	<project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="darkbeast69" revision="pe-10"/>
+	<project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="sdm660" revision="pe-10"/>
 
   <!-- vendor -->
 	<project name="android_vendor_xiaomi_wayne" path="vendor/xiaomi/wayne" remote="sdm660" revision="lineage-17.0" />
         <project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="sdm660" revision="lineage-17.0" />
 
- <!-- Doze -->
+<!-- Common-->
+	<project name="android_vendor_xiaomi_MiuiCamera" path="vendor/xiaomi/MiuiCamera" remote="sdm660" revision="lineage-17.0"/>
+
+<!-- Doze -->
         <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" revision="lineage-17.0" />
 </manifest>
