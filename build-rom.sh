@@ -11,7 +11,7 @@
 
 # Set defaults
 MAKE_TARGET="bacon"
-CCACHE_DIR="$HOME/.ccache"
+CCACHE_EXEC="$(which ccache)"
 
 # Spit out usage info when there are no arguments
 if [[ $# -eq 0 ]]; then
@@ -59,16 +59,15 @@ fi
 
 # Enable CCACHE
 export USE_CCACHE=1
-export CCACHE_NOCOMPRESS=true
-ccache -M 500G &>/dev/null
+ccache -M 50G &>/dev/null
 
 # Set the ccache and build output directories
-export CCACHE_DIR
+export CCACHE_EXEC=$(which ccache)
 if [[ -n $OUTDIR ]]; then export OUTDIR_COMMON_BASE=$OUTDIR
 else OUTDIR=$(pwd)/out; fi
 
 # Spit out some build info
-echo -e "\nDevice: $DEVICE \nROM Source directory: $(pwd) \nCCACHE directory: $CCACHE_DIR \nOutput directory: $OUTDIR \nMake target: $MAKE_TARGET \n"
+echo -e "\nDevice: $DEVICE \nROM Source directory: $(pwd) \nCCACHE directory: $CCACHE_EXEC \nOutput directory: $OUTDIR \nMake target: $MAKE_TARGET \n"
 
 # Do a quick repo sync if specified
 if [[ -n $SYNC ]]; then
