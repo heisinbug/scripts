@@ -78,7 +78,7 @@ if [[ -n $SYNC ]]; then
 fi
 
 # Do cleanup if user has specified it
-if [[ -n $CLEAN ]]; then echo -e "Clearing output directory ...\n"; rm -rf out; fi
+if [[ -n $CLEAN ]]; then echo -e "Clearing output directory ...\n"; make clobber; fi
 
 # Aaaand... begin compilation!
 source build/envsetup.sh
