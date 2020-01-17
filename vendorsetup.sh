@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo omni_laurel_sprout-$var
+  add_lunch_combo omni_jasmine_sprout-$var
 done
