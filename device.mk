@@ -35,5 +35,5 @@ PRODUCT_PACKAGES += \
     update_engine_sideload
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.treble.enabled=true
+    ro.treble.enabled=true \
     fbe.data.wrappedkey=true
