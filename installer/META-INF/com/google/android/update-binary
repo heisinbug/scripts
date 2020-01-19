@@ -33,6 +33,7 @@ extract() {
 
 print "########################################"
 print "#   TWRP installer for Xiaomi Mi A2    #"
+print "#           by Aryan Gupta             #"
 print "########################################"
 print
 

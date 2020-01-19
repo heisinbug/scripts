@@ -36,3 +36,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true
+    fbe.data.wrappedkey=true

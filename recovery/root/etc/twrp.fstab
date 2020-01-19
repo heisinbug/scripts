@@ -8,7 +8,6 @@
 /modem           emmc              /dev/block/bootdevice/by-name/modem      flags=slotselect;backup=1;flashimg=1
 /system          ext4              /dev/block/bootdevice/by-name/system     flags=slotselect;backup=0
 /system_image    emmc              /dev/block/bootdevice/by-name/system     flags=slotselect
-/dtbo            emmc              /dev/block/bootdevice/by-name/dtbo       flags=slotselect;backup=1;display="Dtbo";flashimg=1
 /metadata	 ext4	           /dev/block/bootdevice/by-name/metadata
 /data            f2fs	           /dev/block/bootdevice/by-name/userdata   flags=fileencryption=ice:aes-256-cts
 /vendor          ext4              /dev/block/bootdevice/by-name/vendor     flags=slotselect;display="Vendor";backup=0;wipeingui
