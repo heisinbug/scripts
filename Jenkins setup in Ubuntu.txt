@@ -1,0 +1,49 @@
+What is Jenkins?
+Jenkins is an open source automation server written in Java. Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery. (Wikipedia)
+
+1. Install required packages
+
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install -y jenkins
+
+2. Start jenkins service
+
+sudo service jenkins start
+
+Now jenkins will be available at port 8080 of your server. You can do the first-time setup by going to 
+<server-ip>:8080
+
+--------------------------------------------
+To move jenkins to default HTTP port (port 80) so that you can map it to your own domain:
+
+sudo apt install -y firewalld
+
+Then find out the default network interface. To do that, run "netstat -i" and remember the Iface other than "lo". In case of Google Cloud instance, it is "ens4"
+
+sudo firewall-cmd --zone=public --change-interface=<interface>
+sudo firewall-cmd --zone=public --add-masquerade --permanent
+sudo firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=8080 --permanent
+sudo firewall-cmd --runtime-to-permanent
+sudo firewall-cmd --reload
+sudo systemctl restart firewalld
+sudo systemctl disable ebtables
+sudo systemctl mask ebtables
+
+Now you can open jenkins by going to <server-ip>. You can also map the server IP to your custom domain.
+--------------------------------------------
+
+----------------------------------
+NOTE: Command to fix jenkins permissions of a dir
+sudo setfacl -Rm u:jenkins:rwx <dir>
+----------------------------------
+
+Link for plugins & other useful links
+https://plugins.jenkins.io/ansicolor
+https://plugins.jenkins.io/simple-theme-plugin
+https://plugins.jenkins.io/publish-over-ftp
+https://plugins.jenkins.io/telegram-notifications
+http://afonsof.com/jenkins-material-theme/
+
+COPIED FROM GHOSTRIDER REBORN
