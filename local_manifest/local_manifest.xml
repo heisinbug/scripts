@@ -12,7 +12,7 @@
 
 
   <!-- kernel -->
-	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="sdm660" revision="kernel.lnx.4.4.r38-rel-wifi"/>
+	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="sdm660" revision="cr-8.0-eas"/>
 
   <!-- jasmine-->
 	<project name="device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="tt" revision="pe-10"/>
