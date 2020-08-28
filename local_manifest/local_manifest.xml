@@ -17,7 +17,7 @@
 	<project name="device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="tt" revision="pe-10"/>
 
   <!-- vendor -->
-	<project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="sdm660" revision="cr-8.0-test" />
+	<project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="sdm660" revision="pe-10" />
 	<project name="android_vendor_xiaomi_wayne-common" path="vendor/xiaomi/wayne-common" remote="sdm660" revision="master" />
 
 <!-- Common-->
