@@ -11,16 +11,13 @@
 	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="sdm660" revision="master"/>
 
   <!-- jasmine-->
-	<project name="device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="tt" revision="pe-10"/>
+	<project name="device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="tt" revision="r"/>
 
   <!-- Common-->
-	<project name="device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="tt" revision="pe-10"/>
+	<project name="device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="sdm660" revision="r-wip"/>
 
   <!-- vendor -->
-	<project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="sdm660" revision="pe-10" />
+	<project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="sdm660" revision="r" />
 	<project name="android_vendor_xiaomi_wayne-common" path="vendor/xiaomi/wayne-common" remote="sdm660" revision="master" />
-
-<!-- Common-->
-	<project name="android_vendor_xiaomi_MiuiCamera" path="vendor/xiaomi/MiuiCamera" remote="sdm660" revision="anx"/>
 
 </manifest>
