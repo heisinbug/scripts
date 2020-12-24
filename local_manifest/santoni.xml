@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Jabiyeff" fetch="https://github.com/Jabiyeff/" />
+  <remote  name="pex" fetch="https://github.com/PixelExtended" />
+ 
+  <remove-project name="hardware_qcom-caf_msm8996_display" />
+  
+  <!-- Tree -->
+  <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="pex" revision="eleven" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi_santoni" remote="pex" revision="eleven" />
+  <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="eleven" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="Jabiyeff" revision="caf-msm8996-r" />
+</manifest>
