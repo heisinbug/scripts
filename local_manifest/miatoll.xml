@@ -8,7 +8,7 @@
            fetch="https://github.com/ArrowOS-Devices"/>
 
   <!-- kernel -->
-	<project name="android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="arrow" revision="arrow-11.0"/>
+	<project name="android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="darkbeast69" revision="arrow-11.0"/>
 
   <!-- Tree-->
 	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="eleven"/>
