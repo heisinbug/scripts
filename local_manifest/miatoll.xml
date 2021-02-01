@@ -12,10 +12,7 @@
 
   <!-- Tree-->
 	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="eleven"/>
-
-  <!-- Common-->
-	<project name="device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="darkbeast69" revision="eleven"/> 
-
+	
   <!-- vendor -->
 	<project name="android_vendor_xiaomi_sm6250" path="vendor/xiaomi" remote="arrow" revision="arrow-11.0" />
 </manifest>
