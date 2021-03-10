@@ -17,6 +17,7 @@
 	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="eleven"/>
 	
   <!-- vendor -->
-	<project name="vendor_xiaomi_sm6250" path="vendor/xiaomi" remote="darkbeast69" revision="eleven" />
+	<project name="android_vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" remote="arrow" revision="arrow-11.0" />
+	<project name="android_vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="arrow" revision="arrow-11.0" />
 	<project name="vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="sonal" revision="master" />
 </manifest>
