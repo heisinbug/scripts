@@ -4,19 +4,16 @@
   <remote  name="darkbeast69"
            fetch="https://github.com/darkbeast69"/>
 
-  <remote  name="arrow"
-           fetch="https://github.com/ArrowOS-Devices"/>
-	
-  <remote  name="pe"
-           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
+  <remote  name="fluid"
+           fetch="https://github.com/Project-Fluid-Devices"/>
 
   <!-- kernel -->
-	<project name="android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="arrow" revision="arrow-11.0"/>
+	<project name="kernel_xiaomi_sm6250" path="kernel/xiaomi/miatoll" remote="fluid" revision="fluid-11"/>
 
   <!-- Tree-->
 	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="eleven"/>
 	
   <!-- vendor -->
-	<project name="vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="pe" revision="eleven" />
+	<project name="vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="darkbeast69" revision="eleven" />
 	<!--<project name="vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="" revision="master"-->
 </manifest>
