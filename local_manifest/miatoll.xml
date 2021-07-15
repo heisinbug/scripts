@@ -8,7 +8,7 @@
            fetch="https://github.com/Project-Fluid-Devices"/>
 
   <!-- kernel -->
-	<project name="kernel_xiaomi_sm6250" path="kernel/xiaomi/miatoll" remote="fluid" revision="fluid-11" clone-depth="1"/>
+	<project name="kernel_xiaomi_sm6250" path="kernel/xiaomi/miatoll" remote="darkbeast69" revision="fluid-11" clone-depth="1"/>
 
   <!-- Tree-->
 	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="eleven"/>
