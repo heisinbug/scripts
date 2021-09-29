@@ -4,7 +4,7 @@
   <remote  name="darkbeast69"
            fetch="https://github.com/darkbeast69"/>
 
-  <remote  name="fluid"
+  <remote  name="los"
            fetch="https://github.com/LineageOS"/>
 
   <!-- kernel -->
