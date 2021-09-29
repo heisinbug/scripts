@@ -6,6 +6,9 @@
 
   <remote  name="los"
            fetch="https://github.com/LineageOS"/>
+	
+  <remote  name="sonal"
+           fetch="https://github.com/SonalSingh18"/>
 
   <!-- kernel -->
 	<project name="android_kernel_xiaomi_sm6250" path="kernel/xiaomi/miatoll" remote="los" revision="lineage-18.1" clone-depth="1"/>
@@ -15,4 +18,5 @@
 	
   <!-- vendor -->
 	<project name="vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="darkbeast69" revision="ace" />
+	<project name="vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="sonal" revision="master" />
 </manifest>
