@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <remote  name="darkbeast69"
+           fetch="https://github.com/darkbeast69"/>
+
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"/>
+	
+  <remote  name="sonal"
+           fetch="https://github.com/ArrowOS-Devices"/>
+
+  <!-- kernel -->
+	<project name="android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="sonal" revision="arrow-12.0" clone-depth="1"/>
+
+  <!-- Tree-->
+	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="snow"/>
+	<project name="device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="sonal" revision="arrow-12.0"/>
+
+  <!-- vendor --> 
+  <project name="android_vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" remote="sonal" revision="arrow-12.0"/>
+  <project name="android_vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="sonal" revision="arrow-12.0"/>    
+</manifest>
