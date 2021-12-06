@@ -15,7 +15,7 @@
 
   <!-- Tree-->
 	<project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="darkbeast69" revision="snow"/>
-	<project name="device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="sonal" revision="arrow-12.0"/>
+	<project name="android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="darkbeast69" revision="arrow-12.0"/>
 
   <!-- vendor --> 
   <project name="android_vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" remote="sonal" revision="arrow-12.0"/>
