@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Please do not manually edit this file-->
 <manifest>
-  <remote  name="github"
-           fetch="https://github.com"/>
-	
-  <remote  name="gitlab"
-           fetch="https://gitlab.com"/>
-
   <remote name="ralf"
           fetch="https://github.com/ralf979"
           revision="trece" />
