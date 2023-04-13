@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com"/>
+	
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"/>
+
+  <remote name="ralf"
+          fetch="https://github.com/ralf979"
+          revision="trece" />
+
+  <!-- Local Manifest -->
+  <project path="device/oneplus/lemonade" name="device_oneplus_lemonade" remote="ralf"/>
+  <project path="device/oneplus/sm8350-common" name="heisinbug/device_oneplus_sm8350-common" remote="github" revision="trece" /> 
+  <project path="kernel/oneplus/sm8350" name="kernel_oneplus_sm8350" remote="ralf" revision="trece_XT"/>
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="ralf" />
+  <project path="vendor/oneplus/lemonade" name="ralf979/vendor_oneplus_lemonade" remote="gitlab" revision="trece"/>
+  <project path="vendor/oneplus/sm8350-common" name="heisinbug/vendor_oneplus_sm8350-common" remote="gitlab" revision="trece" />
+  <project path="vendor/oneplus-firmware" name="ralf979/android_vendor_oneplus_firmware" remote="gitlab" revision="trece"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>  
+</manifest>
