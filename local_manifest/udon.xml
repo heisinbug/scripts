@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <remote name="udon"
+          fetch="https://github.com/opudon"
+          revision="14" />
+
+  <!-- Local Manifest -->
+  <project path="device/oneplus/udon" name="android_device_oneplus_udon" remote="udon"/>
+  <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="udon" /> 
+  <project path="vendor/oneplus/udon" name="maitreyapatni25/vendor_oneplus_udon" remote="gitlab" revision="14"/>
+  <project path="vendor/oneplus/sm8450-common" name="maitreyapatni25/vendor_oneplus_sm8450-common" remote="gitlab" revision="14" />
+  <project path="kernel/oneplus/sm8450" name="android_kernel_oneplus_sm8450" remote="udon" revision="14-rice-wip" />
+  <project path="hardware/oplus" name="hardware_oplus" remote="udon" />
+  <project path="kernel/oneplus/sm8450-modules" name="android_kernel_oneplus_sm8450-modules" remote="udon" />
+  <project path="kernel/oneplus/sm8450-devicetrees" name="android_kernel_oneplus_sm8450-devicetrees" remote="udon" />
+  <project path="vendor/qcom/opensource/display-drivers" name="vendor_qcom_opensource_display-drivers" remote="udon"/> 
+  <project path="external/wpa/supplicant_8" name="external_wpa_supplicant_8" remote="udon"/>
+</manifest>
